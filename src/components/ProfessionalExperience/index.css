@@ -1,0 +1,43 @@
+hrLine{
+    border: 1px solid grey;
+    width:92%;
+    margin-top:0px;
+}
+.professionalExperience{
+    margin-bottom: 0px;
+    padding-left:50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:#00008B;
+    font-weight: 600;
+}
+@media (max-width:576px){
+    .professionalExperience{
+        margin-bottom: 0px;
+        padding-left:10px;
+    }
+}
+.experienceDetailsContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.experienceDetails{
+    padding-left: 50px;
+    
+}
+.companyDetails{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+.skills{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.duration{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0px;
+    padding-right: 40px;
+}

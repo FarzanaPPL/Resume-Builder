@@ -1,0 +1,21 @@
+.resumeContainer{
+    padding-top: 70px;
+    background-color: grey;
+    padding-bottom: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.resumeContentContainer{
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+@media (max-width:576px){
+    .resumeContainer{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+}

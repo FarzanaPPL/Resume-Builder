@@ -1,0 +1,21 @@
+.header{
+    background-color: burlywood; 
+  padding: 16px 10px; 
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center; 
+  font-size: 40px; 
+  font-weight: bold;
+  position: fixed; 
+  top: 0;
+  width: 100%; 
+  margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  @media (max-width:576px){
+    .header{
+      padding: 10px 8px; 
+      font-size: 20px; 
+      }
+  }

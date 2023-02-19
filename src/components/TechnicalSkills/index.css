@@ -1,0 +1,34 @@
+.hrLine{
+    border: 1px solid grey;
+    width:92%;
+    margin-top:0px;
+}
+.technicalSkills{
+    margin-bottom: 0px;
+    padding-left:50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:#00008B;
+    font-weight: 600;
+}
+@media (max-width:576px){
+    .technicalSkills{
+        margin-bottom: 0px;
+        padding-left:10px;
+    }
+}
+.table{
+    border-collapse: collapse;
+    border:2px solid black;
+    width:70%;
+    margin-left: 50px;
+}
+.table-row{
+    border:2px solid black;
+    padding:7px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.tech{
+    font-weight: 600;
+}

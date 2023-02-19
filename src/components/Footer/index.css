@@ -1,0 +1,33 @@
+.footerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyrightName{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+@media (max-width){
+    .copyrightName{
+        font-size: 10px;
+    }
+}
+.copyright{
+    background-color: burlywood; 
+  padding: 8px 10px; 
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center; 
+  font-weight: bold;
+  position: fixed; 
+  bottom: 0;
+  width: 100%;  
+  margin-top: 0px;
+    margin-bottom: 0px;
+}
+@media (max-width:576px){
+    .copyright{
+      padding: 5px; 
+    }
+
+}
