@@ -2,10 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: antiquewhite;
 }
 .copyrightName{
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 @media (max-width){
     .copyrightName{
@@ -13,7 +16,6 @@
     }
 }
 .copyright{
-    background-color: burlywood; 
   padding: 8px 10px; 
   color: black;
   font-family: 'Times New Roman', Times, serif;
@@ -22,12 +24,12 @@
   position: fixed; 
   bottom: 0;
   width: 100%;  
-  margin-top: 0px;
-    margin-bottom: 0px;
 }
 @media (max-width:576px){
     .copyright{
       padding: 5px; 
+    margin-top: 0px;
+    margin-bottom: 0px;
     }
 
 }

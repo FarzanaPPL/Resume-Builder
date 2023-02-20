@@ -2,7 +2,7 @@ import './index.css'
 
 const Projects=()=>{
     return(
-        <div className="projectsContainer">
+        <div id="projects" className="projectsContainer">
             <p className="projects">Projects</p>
         <hr className="hrLine"/>
         <div className="projectDetailsContainer">

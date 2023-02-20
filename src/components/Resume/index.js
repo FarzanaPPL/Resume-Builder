@@ -8,6 +8,12 @@ import './index.css'
 const Resume=()=>{
     return(
         <div className="resumeContainer">
+            <div className="sideNav">
+                <a href="#education" className="a">Education</a>
+                <a href="#technicalSkills" className="a">Technical Skills</a>
+                <a href="#projects" className="a">Projects</a>
+                <a href="#professionalExperience" className="a">Professional Experience</a>
+            </div>
         <div className="resumeContentContainer">
             <Header />
             <Education />

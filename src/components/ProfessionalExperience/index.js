@@ -2,7 +2,7 @@ import './index.css'
 
 const ProfessionalExperience=()=>{
     return(
-        <div>
+        <div id="professionalExperience">
             <p className="professionalExperience">Professional Experience</p>
         <hr className="hrLine"/>
         <div className="experienceDetailsContainer">

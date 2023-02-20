@@ -8,6 +8,7 @@
 .name{
     color:#00008B;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
     margin-bottom: 0px;
     text-align: center;
 }
@@ -31,4 +32,11 @@
     .linkdinUrl{
         font-size: 14px;
     }
+    .name{
+        font-size: 18px;
+    }
+    .address{
+        font-size: 14px;
+    }
 }
+

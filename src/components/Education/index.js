@@ -2,7 +2,7 @@ import './index.css'
 
 const Education=()=>{
     return(
-        <div className="educationContainer">
+        <div id="education" className="educationContainer">
         <p className="education">Education</p>
         <hr className="hrLine"/>
         <div className="educationDetailsContainer">
