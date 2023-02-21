@@ -28,16 +28,17 @@ hrLine{
 .companyDetails{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
 }
 .skills{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 .duration{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     margin-top: 0px;
     padding-right: 40px;
+    padding-left: 40px;
 }

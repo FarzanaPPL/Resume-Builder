@@ -1,0 +1,15 @@
+.navContainer{
+  position:fixed;
+  width:100%;
+  background-color: white;
+}
+.logo{
+  height:85px;
+  width:15%;
+}
+@media (max-width:576px){
+  .logo{
+    height:60px;
+    width:25%;
+  }
+}

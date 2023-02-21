@@ -1,55 +1,72 @@
 .resumeContainer{
-    padding-top: 70px;
     background-color: grey;
     padding-bottom: 30px;
     padding-left: 150px;
-    padding-right: 150px;
+    padding-right: 180px;
+    padding-top: 85px;
+    display: flex;
 }
 .resumeContentContainer{
     background-color: white;
     padding-bottom: 50px;
+    padding-right: 50px;
+    background-color: aqua;
+    margin-top: 0px;
+}
+@media (min-width:576px){
+    .mobileNav{
+        display: none;
+    }
 }
 @media (max-width:576px){
     .resumeContentContainer{
         background-color: white;
         padding-bottom: 50px;
-        padding-left: 30px;
+        padding-left: 15px;
     }
+    .desktopNav{
+        display: none;
+    }
+    
 }
 
 @media (max-width:576px){
     .resumeContainer{
-        padding-top: 30px;
+        padding-top: 62px;
         padding-bottom: 30px;
         padding-left: 50px;
         padding-right: 50px;
+        display: flex;
     }
 
 }
 .sideNav{
     height:100%;
-    width:160px;
-    position:fixed;
+    width:150px;
+    position: fixed;
     left:0;
-    margin-top:8px;
+    top:0;
+    margin-top: 88px;
     padding-top: 60px;
-    background-color: greenyellow;
+    background-color: antiquewhite;
     font-family: 'Times New Roman', Times, serif;
 }
 @media (max-width:576px){
     .sideNav{
         height:100%;
-        width:70px;
-        margin-top:8px;
-        padding-top: 40px;
-        
+        width:60px;
+        padding-top: 40px;  
+        margin-top: 63px;
     }
       
 }
 .a{
-    padding: 6px 8px 16px;
+    padding-top: 6px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 30px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 18px;
     color: #00008B;
     display: block;
   }
@@ -62,4 +79,13 @@
         display: block;
       }
   }
+  .contentsContainer{
+    display: flex;
+    
+  }
+  .contentsLogo{
+    padding-top: 10px;
+    padding-right: 7px;
+  }
+ 
   

@@ -15,6 +15,7 @@
     .technicalSkills{
         margin-bottom: 0px;
         padding-left:10px;
+        font-size: 18px;
     }
 }
 .table{
@@ -27,7 +28,7 @@
     border:2px solid black;
     padding:7px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 .tech{
     font-weight: 600;

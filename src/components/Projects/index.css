@@ -11,12 +11,6 @@
     color:#00008B;
     font-weight: 600;
 }
-@media (max-width:576px){
-    .projects{
-        margin-bottom: 0px;
-        padding-left:10px;
-    }
-}
 .projectDetailsContainer{
     padding-left:50px;
     padding-right:50px;
@@ -28,6 +22,16 @@
     align-items: center;
 }
 @media (max-width:576px){
+    .projectDetailsContainer{
+        padding-left:30px;
+        padding-right:30px;
+        padding-bottom:10px;
+    }
+    .projects{
+        margin-bottom: 0px;
+        padding-left:10px;
+        font-size: 18px;
+    }
     .technologiesContainer{
         display: flex;
         flex-direction: column;
@@ -42,19 +46,19 @@
 }
 .projectDescription{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
 .features{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
 .technologies{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 0px;
 }
 .technologiesHeading{
@@ -62,7 +66,7 @@
 }
 .projectLink{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 16px;
     color: blue;
 }
 .link{
